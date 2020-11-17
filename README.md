@@ -1,2 +1,1 @@
-# csdn
-博客静态资源
+[![](https://data.jsdelivr.com/v1/package/gh/rm-rf-run/cdn/badge)](https://www.jsdelivr.com/package/gh/rm-rf-run/cdn)
