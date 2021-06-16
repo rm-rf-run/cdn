@@ -25,7 +25,7 @@ $('.waifu-tool .home').click(function(){
 });
 $('.waifu-tool .comments').click(function(){
     window.event? window.event.cancelBubble = true : e.stopPropagation();
-    showHitokoto()
+    showHitokoto() 
 });
 $('.waifu-tool .info-circle').click(function(){
     window.event? window.event.cancelBubble = true : e.stopPropagation();
