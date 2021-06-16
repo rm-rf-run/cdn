@@ -63,7 +63,7 @@ $('.waifu-tool .street-view').click(function (){
         loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33&id='+m33_id)
     }else{
         m22_id += 1;
-        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=22&id='+m22_id)
+        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33&id='+m22_id)
     }
     showMessage('我的新衣服好看嘛',4000);
 });
