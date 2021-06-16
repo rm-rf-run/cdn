@@ -47,11 +47,11 @@ var model_p = 22,m22_id = m33_id = 0;
 $('.waifu-tool .drivers-license-o').click(function(){
     window.event? window.event.cancelBubble = true : e.stopPropagation();
     if(model_p===22){
-        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=22&id='+m22_id);
+        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'/model/api.php?p=22&id='+m22_id);
         model_p = 33;
         showMessage('33援交有点累了，现在该我上场了',4000)
     }else{
-        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33&id='+m33_id);
+        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'/model/api.php?p=33&id='+m33_id);
         model_p = 22;
         showMessage('我又回来了！',4000)
     }
@@ -60,14 +60,14 @@ $('.waifu-tool .street-view').click(function (){
     window.event? window.event.cancelBubble = true : e.stopPropagation();
     if(model_p===22){
         m33_id += 1;
-        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33&id='+m33_id)
+        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'/model/api.php?p=33&id='+m33_id)
     }else{
         m22_id += 1;
-        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33&id='+m22_id)
+        loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'/model/api.php?p=22&id='+m22_id)
     }
     showMessage('我的新衣服好看嘛',4000);
 });
-loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/api.php?p=33');
+loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'/model/api.php?p=33');
 $(document).on('copy',function(){
     showMessage('你都复制了些什么呀，转载要记得加上出处哦',8000)
 });
