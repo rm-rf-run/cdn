@@ -67,7 +67,7 @@ $('.waifu-tool .street-view').click(function (){
     }
     showMessage('我的新衣服好看嘛',4000);
 });
-loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/model/api.php?p=33');
+loadlive2d('live2d',$(".l2d_xb").attr("data-api")+'http://localhost:8080/prettywordpress/wordpress/wp-content/plugins/poster-girl-l2d-2233-master/api.php?p=33');
 $(document).on('copy',function(){
     showMessage('你都复制了些什么呀，转载要记得加上出处哦',8000)
 });
